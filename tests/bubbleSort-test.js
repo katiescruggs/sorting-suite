@@ -1,6 +1,6 @@
 const chai = require('chai');
 const assert = chai.assert;
-const bubbleSort = require('../bubbleSort.js');
+const bubbleSort = require('../scripts/bubbleSort.js');
 
 const {
   arrayChar, 
@@ -8,7 +8,7 @@ const {
   array1000,
   array10000,
   array20000,
-} = require('../arrays.js');
+} = require('../scripts/arrays.js');
 
 describe('BubbleSort', function() {
   it('should be a function', function() {

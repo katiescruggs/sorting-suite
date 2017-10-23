@@ -1,6 +1,6 @@
 const chai = require('chai');
 const assert = chai.assert;
-const insertionSort = require('../insertionSort.js');
+const insertionSort = require('../scripts/insertionSort.js');
 
 const {
   arrayChar,
@@ -8,7 +8,7 @@ const {
   array1000,
   array10000,
   array20000
-} = require('../arrays.js');
+} = require('../scripts/arrays.js');
 
 describe('InsertionSort', function() {
   it('should be a function', function() {
