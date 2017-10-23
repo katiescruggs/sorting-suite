@@ -1,5 +1,5 @@
 {
-  "name": "sorting-suite",
+  "name": "@katiescruggs/sorting-suite",
   "version": "1.0.0",
   "description": "Four Sorting Algorithms",
   "main": "index.js",

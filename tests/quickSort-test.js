@@ -1,6 +1,6 @@
 const chai = require('chai');
 const assert = chai.assert;
-const quickSort = require('../quickSort.js');
+const quickSort = require('../scripts/quickSort.js');
 
 const {
   arrayChar,
@@ -11,7 +11,7 @@ const {
   array100000,
   array200000,
   array300000
-} = require('../arrays.js');
+} = require('../scripts/arrays.js');
 
 describe('QuickSort', function() {
   it('should be a function', function() {
